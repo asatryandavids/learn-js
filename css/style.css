@@ -1,0 +1,60 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.Window {
+    background-image: url('../images/Winter Fields.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    /*filter: brightness(50%)*/
+}
+
+.LoginCard {
+    width: 500px;
+    height: 300px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    border-radius: 5px;
+
+    background-color: rgba(190, 190, 190, 0.35);
+}
+
+h3 {
+    text-align: center;
+    color: rgb(54, 111, 194);
+}
+
+.LoginInput, .PasswordInput {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40px;
+    width: 180px;
+    padding: 0px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: none;
+}
+
+.LoginButton {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40px;
+    width: 180px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: #7CA15E;
+    color: aliceblue;
+    text-transform: uppercase;
+    border: none;
+}
